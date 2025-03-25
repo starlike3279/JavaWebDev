@@ -1,4 +1,4 @@
-package org.zerock.calc;
+package org.zerock.w1.calc;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

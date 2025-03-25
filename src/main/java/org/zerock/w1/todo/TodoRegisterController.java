@@ -1,4 +1,4 @@
-package org.zerock.todo;
+package org.zerock.w1.todo;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(name = "todoRegisterController", urlPatterns = "/todo/register")
-public class ToDoRegisterController extends HttpServlet {
+public class TodoRegisterController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
